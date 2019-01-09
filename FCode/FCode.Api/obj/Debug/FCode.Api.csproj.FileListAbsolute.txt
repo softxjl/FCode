@@ -55,8 +55,10 @@ D:\个人文件夹\GitHub\FCode\FCode\FCode.Api\bin\WebGrease.dll
 D:\个人文件夹\GitHub\FCode\FCode\FCode.Api\bin\log4net.dll
 D:\个人文件夹\GitHub\FCode\FCode\FCode.Api\bin\JWT.dll
 D:\个人文件夹\GitHub\FCode\FCode\FCode.Api\bin\FCode.Utility.pdb
+D:\个人文件夹\GitHub\FCode\FCode\FCode.Api\bin\FCode.Utility.dll.config
 D:\个人文件夹\GitHub\FCode\FCode\FCode.Api\bin\FCode.VModel.pdb
 D:\个人文件夹\GitHub\FCode\FCode\FCode.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\个人文件夹\GitHub\FCode\FCode\FCode.Api\bin\Newtonsoft.Json.pdb
 D:\个人文件夹\GitHub\FCode\FCode\FCode.Api\bin\Newtonsoft.Json.xml
 D:\个人文件夹\GitHub\FCode\FCode\FCode.Api\bin\System.Net.Http.Formatting.xml
 D:\个人文件夹\GitHub\FCode\FCode\FCode.Api\bin\System.Web.Helpers.xml
@@ -89,5 +91,3 @@ D:\个人文件夹\GitHub\FCode\FCode\FCode.Api\bin\zh-Hans\System.Web.WebPages.
 D:\个人文件夹\GitHub\FCode\FCode\FCode.Api\obj\Debug\FCode.Api.csprojResolveAssemblyReference.cache
 D:\个人文件夹\GitHub\FCode\FCode\FCode.Api\obj\Debug\FCode.Api.dll
 D:\个人文件夹\GitHub\FCode\FCode\FCode.Api\obj\Debug\FCode.Api.pdb
-D:\个人文件夹\GitHub\FCode\FCode\FCode.Api\bin\FCode.Utility.dll.config
-D:\个人文件夹\GitHub\FCode\FCode\FCode.Api\bin\Newtonsoft.Json.pdb

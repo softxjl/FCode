@@ -146,6 +146,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="api\ApiBaseController.cs" />
+    <Compile Include="api\IndexController.cs" />
     <Compile Include="api\LoginController.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
@@ -153,6 +155,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="Filter\ApiActionFilterAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

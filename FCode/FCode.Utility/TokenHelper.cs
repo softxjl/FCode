@@ -16,7 +16,7 @@ namespace FCode.Utility
     public class TokenHelper
     {
 
-        private static string SecretKey = "This is a private key for Server";//这个服务端加密秘钥 属于私钥
+        public static string SecretKey = "This is a private key for Server";//这个服务端加密秘钥 属于私钥
         /// <summary>
         /// 获取token
         /// </summary>
