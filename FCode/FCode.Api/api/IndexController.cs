@@ -11,11 +11,12 @@ namespace FCode.Api
 {
     public class IndexController : ApiBaseController
     {
-        [HttpPost]
-        public ReturnResult Index(UserReq req)
+        [HttpGet]
+        public ReturnResult GetHome()
         {
             var result = new ReturnResult();
-            if (token != null) result.msg = "访问成功！";
+            var token = this.GetToken();
+            if (token != null) result.data = "访问成功！";
             return result;
         }
     }

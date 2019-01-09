@@ -11,11 +11,9 @@ namespace FCode.Api
     [ApiActionFilter]
     public class ApiBaseController : ApiController
     {
-        public ApiBaseController()
+        protected TokenInfo GetToken()
         {
-            token = this.RequestContext.RouteData.Values["auth"] as TokenInfo;
+            return this.RequestContext.RouteData.Values["auth"] as TokenInfo;
         }
-        public static TokenInfo token { get; set; }
-
     }
 }
