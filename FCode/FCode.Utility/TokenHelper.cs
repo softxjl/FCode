@@ -13,17 +13,17 @@ namespace FCode.Utility
     /// Jace
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    public class JWTHelper<T> where T : class
+    public class TokenHelper
     {
 
-        public static string SecretKey = "This is a private key for Server";//这个服务端加密秘钥 属于私钥
+        private static string SecretKey = "This is a private key for Server";//这个服务端加密秘钥 属于私钥
         /// <summary>
-        /// kian
+        /// 获取token
         /// </summary>
         /// <param name="key"></param>
         /// <param name="payload"></param>
         /// <returns></returns>
-        public static string JWTEncode(object payload)
+        public static string JWTEncode(TokenInfo token)
         {
             string result = string.Empty;
             try
@@ -32,7 +32,7 @@ namespace FCode.Utility
                 IJsonSerializer serializer = new JsonNetSerializer();
                 IBase64UrlEncoder urlEncoder = new JwtBase64UrlEncoder();
                 IJwtEncoder jwtEncoder = new JwtEncoder(algorithm, serializer, urlEncoder);
-                result = jwtEncoder.Encode(payload, SecretKey);
+                result = jwtEncoder.Encode(token, SecretKey);
             }
             catch (Exception ex)
             {
@@ -41,12 +41,12 @@ namespace FCode.Utility
             return result;
         }
         /// <summary>
-        /// Jace
+        /// 解析token
         /// </summary>
         /// <param name="key"></param>
         /// <param name="token"></param>
         /// <returns></returns>
-        public static T JWTDecode(string token)
+        public static TokenInfo JWTDecode(string token)
         {
             try
             {
@@ -56,7 +56,7 @@ namespace FCode.Utility
                 IBase64UrlEncoder urlEncoder = new JwtBase64UrlEncoder();
                 IJwtDecoder jwtDecoder = new JwtDecoder(jsonSerializer, jwtValidator, urlEncoder);
 
-                var obj = jwtDecoder.DecodeToObject<T>(token, SecretKey, true);
+                var obj = jwtDecoder.DecodeToObject<TokenInfo>(token, SecretKey, true);
 
                 return obj;
             }
@@ -70,23 +70,7 @@ namespace FCode.Utility
 
     public class TokenInfo
     {
-        public TokenInfo()
-        {
-            iss = "签发者信息";
-            aud = "http://example.com";
-            sub = "HomeCare.VIP";
-            jti = DateTime.Now.ToString("yyyyMMddhhmmss");
-            UserName = "jack.chen";
-            UserPwd = "jack123456";
-            UserRole = "HomeCare.Administrator";
-        }
-        //
-        public string iss { get; set; }
-        public string aud { get; set; }
-        public string sub { get; set; }
-        public string jti { get; set; }
+        public int UserId { get; set; }
         public string UserName { get; set; }
-        public string UserPwd { get; set; }
-        public string UserRole { get; set; }
     }
 }
