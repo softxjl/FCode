@@ -91,3 +91,10 @@ D:\个人文件夹\GitHub\FCode\FCode\FCode.Api\bin\zh-Hans\System.Web.WebPages.
 D:\个人文件夹\GitHub\FCode\FCode\FCode.Api\obj\Debug\FCode.Api.csprojResolveAssemblyReference.cache
 D:\个人文件夹\GitHub\FCode\FCode\FCode.Api\obj\Debug\FCode.Api.dll
 D:\个人文件夹\GitHub\FCode\FCode\FCode.Api\obj\Debug\FCode.Api.pdb
+D:\个人文件夹\GitHub\FCode\FCode\FCode.Api\bin\EntityFramework.dll
+D:\个人文件夹\GitHub\FCode\FCode\FCode.Api\bin\EntityFramework.SqlServer.dll
+D:\个人文件夹\GitHub\FCode\FCode\FCode.Api\bin\FCode.Entity.dll
+D:\个人文件夹\GitHub\FCode\FCode\FCode.Api\bin\FCode.Entity.pdb
+D:\个人文件夹\GitHub\FCode\FCode\FCode.Api\bin\FCode.Entity.dll.config
+D:\个人文件夹\GitHub\FCode\FCode\FCode.Api\bin\EntityFramework.xml
+D:\个人文件夹\GitHub\FCode\FCode\FCode.Api\bin\EntityFramework.SqlServer.xml
