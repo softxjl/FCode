@@ -1,0 +1,10 @@
+D:\个人文件夹\GitHub\FCode\FCode\FCode.Entity\bin\Debug\FCode.Entity.dll.config
+D:\个人文件夹\GitHub\FCode\FCode\FCode.Entity\bin\Debug\FCode.Entity.dll
+D:\个人文件夹\GitHub\FCode\FCode\FCode.Entity\bin\Debug\FCode.Entity.pdb
+D:\个人文件夹\GitHub\FCode\FCode\FCode.Entity\bin\Debug\EntityFramework.dll
+D:\个人文件夹\GitHub\FCode\FCode\FCode.Entity\bin\Debug\EntityFramework.SqlServer.dll
+D:\个人文件夹\GitHub\FCode\FCode\FCode.Entity\bin\Debug\EntityFramework.xml
+D:\个人文件夹\GitHub\FCode\FCode\FCode.Entity\bin\Debug\EntityFramework.SqlServer.xml
+D:\个人文件夹\GitHub\FCode\FCode\FCode.Entity\obj\Debug\FCode.Entity.csprojResolveAssemblyReference.cache
+D:\个人文件夹\GitHub\FCode\FCode\FCode.Entity\obj\Debug\FCode.Entity.dll
+D:\个人文件夹\GitHub\FCode\FCode\FCode.Entity\obj\Debug\FCode.Entity.pdb
